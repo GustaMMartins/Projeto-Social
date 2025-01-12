@@ -28,6 +28,7 @@ html, body{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        
 
         height: 627px;
         width: 311px;
@@ -38,10 +39,11 @@ html, body{
     iframe#tela{
         position: relative;
         top: 80px;
-        left: 22px;
+        left: 21.5px;
+        box-shadow: px -1px -2px black;
 
-        width: 266px;
-        height: 472px;          
+        width: 267.8px;
+        height: 471.8px;          
     }
 
     section#redesociais {
