@@ -41,9 +41,27 @@ html, body{
         left: 22px;
 
         width: 266px;
-        height: 472px;
-        
+        height: 472px;          
+    }
 
+    section#redesociais {
+        text-align: right;
+    }
+
+    
+    section#redesociais > a >img {
+        width:50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.403);
+        box-sizing: border-box;
         
-        
+    }
+
+    section#redesociais img:hover{
+        border: 5px solid white;
+        transform: translate(-5px, -5px);
+        transition-duration: 0.5s;
+        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.611);
+    
     }
